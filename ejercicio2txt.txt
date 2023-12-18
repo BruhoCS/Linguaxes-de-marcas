@@ -6,4 +6,6 @@
 
 4-//equipos/máquina[@nome='COPERNICO']/config
 
-5-
+5-//máquina[tipo='Semitorre' and config/OS='Windows XP']
+
+6-//equipos/máquina[hardware/memoria=4 and hardware/memoria/@tecnoloxía='DDR2']
