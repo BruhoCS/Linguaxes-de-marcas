@@ -34,3 +34,15 @@
 
 18-/equipos/máquina[count(hardware/disco) > 1]/concat(@nome, ' - ', config/OS)
 
+19-.//máquina[config/IP and not(config/gateway)]/config
+
+20.//*[not(text())]
+
+21. //máquina[starts-with(config/IP, '192.168.10.')]
+
+22. //máquina[hardware/procesador/@num_nucleos > 1 and hardware/memoria <= 2]/@nome
+
+23.//máquina[sum(hardware/disco/@capacidade) > 1000]
+
+24.//máquina[sum(hardware/disco/@capacidade) < 80]
+
