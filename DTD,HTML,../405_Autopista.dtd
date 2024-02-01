@@ -1,0 +1,21 @@
+<!DOCTYPE paneles [
+    <!ELEMENT paneles (evento+)>
+    <!ELEMENT evento (via, pk, retencion, sentido?, carrilescortados?)>
+    <!ATTLIST evento tipo CDATA #REQUIRED
+                      fecha CDATA #IMPLIED>
+    <!ELEMENT via (nombre, ref, origen, destino, (doble | sentido), carriles)>
+    <!ELEMENT doble EMPTY>
+    <!ELEMENT sentido (#PCDATA)>
+    <!ELEMENT carriles EMPTY>
+    <!ELEMENT retencion EMPTY>
+    <!ATTLIST retencion long CDATA #IMPLIED>
+    <!ELEMENT carrilescortados EMPTY>
+    <!ATTLIST carrilescortados valor (1|2|3|4) #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT ref (#PCDATA)>
+    <!ELEMENT origen (#PCDATA)>
+    <!ELEMENT destino (#PCDATA)>
+    <!ELEMENT pk (#PCDATA)>
+    <!ELEMENT sentido (#PCDATA)>
+    <!ELEMENT carriles EMPTY>
+]>
