@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paneles>
+    <evento tipo="Congestión" fecha="2024-02-01">
+        <via>
+            <nombre>Autopista A1</nombre>
+            <ref>A1</ref>
+            <origen>Ciudad A</origen>
+            <destino>Ciudad B</destino>
+            <doble/>
+            <carriles/>
+        </via>
+        <pk>50</pk>
+        <retencion long="10"/>
+        <sentido>Norte</sentido>
+        <carrilescortados valor="3"/>
+    </evento>
+    <evento tipo="Accidente">
+        <via>
+            <nombre>Autopista A2</nombre>
+            <ref>A2</ref>
+            <origen>Ciudad C</origen>
+            <destino>Ciudad D</destino>
+            <carriles/>
+        </via>
+        <pk>75</pk>
+        <retencion long="5"/>
+    </evento>
+</paneles>
