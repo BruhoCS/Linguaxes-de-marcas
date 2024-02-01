@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE equipos_de_baloncesto SYSTEM "409_Baloncesto.dtd">
+<equipos_de_baloncesto>
+    <equipo>
+        <nombre>Madrid B.C</nombre>
+        <ciudad>Madrid </ciudad>
+        <entrenador>Jason Kidd</entrenador>
+        <jugadores>
+            <jugador posicion = "Pivot">
+                <nombre>Juan<nombre>
+                <nacionalidad>Español</nacionalidad>
+            </jugador>
+            <jugador posicion = "Base">
+                <nombre>Vladimir</nombre>
+                <nacionalidad>Ruso</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+    
+    <equipo>
+        <nombre>Celtics de Boston</nombre>
+        <ciudad>Boston</ciudad>
+        <entrenador>Joe Mazzulla</entrenador>
+        <jugadores>
+            <jugador posicion = "Escolta">
+                <nombre>Svi Myhailiuk</nombre>
+                <nacionalidad>Estadounidense</nacionalidad>
+            </jugador>
+            <jugador posicion = "Base">
+                <nombre>Payton Pritchard</nombre>
+                <nacionalidad>Estadounidense</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+</equipos_de_baloncesto>
