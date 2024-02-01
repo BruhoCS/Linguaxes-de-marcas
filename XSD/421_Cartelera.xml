@@ -1,0 +1,66 @@
+<cartelera> 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:noNamespaceSchemaLocation="421_cartelera.xsd">
+  <pelicula codigo="film527471" duracion="180" ano="2023">
+    <titulo>Oppenheimer</titulo>
+    <titulo-original>Oppenheimer</titulo-original>
+    <pais>Estados Unidos</pais>
+    <generos>
+      <genero>Historia</genero>
+      <genero>Drama</genero>
+      <genero>documental</genero>
+      <genero>Suspense</genero>
+    </generos>
+    <clasificacion edad="12" />
+    <sinopsis>
+      Durante la Segunda Guerra Mundial, el teniente general Leslie Groves designa al físico 
+      J. Robert Oppenheimer para un grupo de trabajo que está desarrollando el Proyecto Manhattan, 
+      cuyo objetivo consiste en fabricar la primera bomba atómica.
+    </sinopsis>
+    <director>Christopher Nolan</director>
+    <reparto>
+      <actor>Cillian Murphy</actor>
+      <actriz>Florence Pugh</actriz>
+      <actriz>Robert Downey Jr.</actriz>
+      <actriz>Emily Bluntt</actriz>
+      <actor>Josh Hartnett</actor>
+      <actor>Matt Damon</actor>
+      <actor>Gary Oldman</actor>
+      <actriz>Jack Quaid</actriz>
+    </reparto>
+    <web>https://www.oppenheimer-lapelicula.es/</web>
+    <imdb>https://www.imdb.com/title/tt15398776/</imdb>
+    <cartel>Oppenheimer.jpg</cartel>
+  </pelicula>
+
+  <pelicula codigo="film974625" duracion="106" ano="2022">
+    <titulo>El sastre de la mafia</titulo>
+    <titulo-original>The outfit</titulo-original>
+    <pais>Estados Unidos</pais>
+    <generos>
+      <genero>Misterio</genero>
+      <genero>Intriga</genero>
+      <genero>Sspense</genero>
+      <genero>Drama</genero>
+    </generos>
+    <clasificacion edad="16" />
+    <sinopsis>
+      Chicago. 1956. Leonard, es un sastre inglés que confeccionaba trajes en la mundialmente famosa 
+      Savile Row de Londres. Después de una tragedia personal termina en Chicago, trabajando en una 
+      pequeña sastrería en una zona difícil de la ciudad donde hace ropa elegante para las únicas personas 
+      a su alrededor que pueden pagarla: una familia de gángsters. Esta familia de mafiosos intentará aprovecharse
+       de la naturaleza gentil y complaciente de Leonard.
+    </sinopsis>
+    <directora>Patty Jenkins</directora>
+    <reparto>
+      <actriz>Zoey Deutch</actriz>
+      <actor>Mark Rylance</actor>
+      <actriz>Dylan O'Brien</actriz>
+      <actriz>Johnny Flynn</actriz>
+      <actriz>Simon Russell Beale</actriz>
+      <actor>Nikki Amuka-Bird</actor>
+    </reparto>
+    <imdb>https://www.imdb.com/title/tt14114802/</imdb>
+    <cartel>TheOutfit.jpg</cartel>
+  </pelicula>
+</cartelera>
