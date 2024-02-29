@@ -149,3 +149,18 @@ return days-from-duration(xs:date($baile/fin)-xs:date($baile/comienzo))
 
 for $baile in //bailes/baile
 return days-from-duration(current-date()-xs:date($baile/comienzo))
+
+--- Ejemplo de tabla html en xqueery
+<table>
+ <tr>
+  <th>Titulo</th>
+ <th>nombre</th>
+</tr>
+for $a in doc(...)
+return
+<table>
+  <tr>
+  <th>{$a/titulo/text()}</th>
+ <th>{$a/autor/nombre/text}</th>
+ </tr>
+</table
