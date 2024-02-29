@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <!--Metadaos-->
+    <meta charset="utf-8">
+    <meta name="author" content="Bruno Couceiro">
+    <meta name="description" content="Portafolio del desarrollador">
+    <meta name="keywords" content="HTML , CSS , JavaScript, React">
+    <meta name="viewport" content="width=device-width , initial-scale=1"> 
+    <!--Titulo-->
+    <title>Bruno Couceiro | Desarrollo Web Front-End</title>
+    <!--Favicon(icono de la pestaña)-->
+    <link rel="icon" type="image/x-icon" href="imagenes/iconoDeLaPestaña(Favicon).png">
+    <!--Link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Icono de boostrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--CSS-->
+    <link href="style.css" rel="stylesheet"/>
+
+    <!--Estilo letra h1-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Micro+5&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Micro+5&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <!--Barra de navegacion-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <a class="navbar-brand" href="#">
+                <img src="imagenes/iconoDeLaPestaña(Favicon).png" width="50" alt="Logo de la página"/>
+              </a>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#proyectos">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " aria-disabled="flase" href="#Contacto">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+          <!--Seccion Hero-->
+        <section class="hero align-items-stretch">
+            <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+                <img class="hero imagen-desarrollador" src="imagenes/YoBooststrap.svg" alt="Mi imagen pagina" width="250"/>
+                <h1>Hola!,soy Bruno Couceiro</h1>
+                <h2>Desarrollo webs</h2>
+            </div>
+            <div class="hero-inferior">
+                <img class="hero-inferior-imagen img-fluid" src="imagenes/html,css,js.svg" alt="Logos JS,CSS,HTML">
+            </div>
+
+            <!--Seccion sobre mi-->
+        </section>       
+        <section id="sobre-mi" class="sobre-mi seccion-oscura">
+          <div class="contenedor">
+            <h2 class="seccion-titulo texto-blanco">Conóceme</h2>
+            <p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non lacinia velit, sit amet vestibulum metus. Nullam felis lacus, pretium venenatis elit in, hendrerit sodales sapien. Pellentesque eu feugiat ligula. Quisque vel tortor rhoncus, pretium urna in, tincidunt felis. Quisque tempus ipsum dictum, dictum ipsum eu, volutpat ante. In at odio et urna eleifend bibendum ut id enim. Morbi dignissim rhoncus velit gravida semper. Quisque ac nisl vitae leo laoreet vulputate cursus in orci. Nam dignissim velit tortor, non lacinia neque fringilla at.</p>
+          </div>
+        </section>
+
+        <!--Seccion de experiencia-->
+        <section class="experiencia seccion-clara">
+          <div class="container text-center">
+            <div class="row">
+              <!--Desarrollo web-->
+              <div class="columna col-12 col-md-6">
+                <i class="bi bi-pc-display"></i>
+                <p class="experiencia-titulo"><strong>Desarrollo</strong> <b>Web</b></p>
+                <p>tiam convallis orci mauris, sit amet fringilla est dignissim quis. Quisque elementum tellus non risus hendrerit, nec rhoncus quam aliquam. Duis sed nisi tempus, convallis nisi ut, faucibus lectus. </p>
+                <!--badges-->
+                  <span class="badge text-bg-primary">HTML</span>
+                  <span class="badge text-bg-success">CSS</span>
+                  <span class="badge text-bg-warning">JavaScript</span>
+              </div>
+              <!--Articulos-->
+              <div class="columna col-12 col-md-2">
+                <i class="bi bi-fire"></i>
+                <p class="experiencia-titulo"><strong>Opositor a Bombero</strong></p>
+                <p>tiam convallis orci mauris</p>
+                <!--badges-->
+                <span class="badge text-bg-danger">Salvamento</span>
+                <span class="badge text-bg-success">Prevencion</span>
+              </div>
+              <!--Estudiante-->
+              <div class="columna col-12 col-md-4">
+              <i class="bi bi-book-fill"></i>
+                <p class="experiencia-titulo">Estudiante</p>
+                <p>tiam convallis orci mauris, sit amet fringilla est dignissim quis. Quisque elementum tellus non risus hendrerit, nec rhoncus quam aliquam. </p>
+                <!--badges-->
+                  <span class="badge text-bg-primary">DAW</span>
+                  <span class="badge text-bg-success">UDEMY</span>
+                  <span class="badge text-bg-danger">ASC Bombeiros</span>
+                  <span class="badge text-bg-info">DESA</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Proyectos-->
+        <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column ">
+          <h2 class="seccion-titulo texto-negro">Proyectos recientes</h2>
+          <h3 class="seccion-descripcion">Algunos de los proyectos acabados recientemente</h3>
+
+          <!--Galeria de proyectos-->
+          <div class="container text-center proyectos-contenedor">
+            <div class="row">
+              <!--Proyecto1-->
+              <div class="col12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                  <img src="imagenes/lenguajes de marcas.png" alt="proyecto1">
+                  <div class="overlay">
+                    <p>Linguaxes de marcas</p>
+                    <div class="iconos-contenedor">
+                      <a href="https://github.com/BruhoCS/Linguaxes-de-marcas" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-github"></i>
+                      </a>
+                      <a href="https://github.com/BruhoCS/Linguaxes-de-marcas/blob/main/Xquery/Simulacro%20Xquery/impresoras" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-code-square"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Proyecto2-->
+              <div class="col12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                  <img src="imagenes/Programacion.png" alt="proyecto1">
+                  <div class="overlay">
+                    <p>Programación</p>
+                    <div class="iconos-contenedor">
+                      <a href="https://github.com/BruhoCS/Programacion" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-filetype-java"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Proyecto3-->
+              <div class="col12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                  <img src="imagenes/Mi pagina web.jpg" alt="proyecto1">
+                  <div class="overlay">
+                    <p>Mi Pagina Web</p>
+                    <div class="iconos-contenedor">
+                      <a href="http://127.0.0.1:5500/Booststrap_Couceiro_Bruno.html" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-webcam-fill"></i>
+                      </a>
+                      <a href="https://www.instagram.com/brunoo__cs/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-webcam"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        <a href="https://github.com/BruhoCS?tab=repositories" target="_blank" rel="noopener noreferrer">
+          <button type="button" class="btn btn-dark" >
+            Mas Proyectos
+            <i class="bi bi-briefcase-fill"></i>
+          </button>
+        </a>
+        </section>
+
+        <!--Seccion de contacto-->
+        <section id="Contacto" class="contacto seccion-oscura">
+          <div class="container">
+            <div class="container text-center resctangulo d-flex justify-content-evenly">
+              <div class="row">
+                <div class="col-12 col-md-4 seccion-titulo">
+                  Contacta conmigo!
+                </div>
+                <div class="col-12 col-md-4">
+                  <a href="mailto:sande.couceiro@gmail.com">
+                    <button type="button">
+                      Contacto
+                      <i class="bi bi-envelope-at-fill"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Pie de página(footer)-->
+        <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+          <img class="footer-logo" src="imagenes/Icono-Blanco.png" alt="Logo Portafolio">
+          <p class="footer-texto text-center">Avanzando día a día<br> Creemos un proyecto juntos</p>
+          <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://twitter.com/Brunoo12003" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-twitter-x"></i>
+            </a>
+          </div>
+          <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://www.instagram.com/brunoo__cs/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </div>
+          <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://github.com/BruhoCS" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-github"></i>
+            </a>
+          </div>
+          <div>
+            Creado por Bruno Couceiro Sande(2024) &#169;
+          </div>
+        </footer>
+
+       <!--JavaScript-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>
