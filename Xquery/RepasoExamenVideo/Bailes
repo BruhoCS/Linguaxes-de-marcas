@@ -145,7 +145,8 @@ for $baile in //bailes/baile
 where days-from-duration(xs:date($baile/fin)-xs:date($baile/comienzo)) > 100
 return days-from-duration(xs:date($baile/fin)-xs:date($baile/comienzo))
 
---- Obtener la diferencia de dias del comiendo del baile con la fehca actual
+--- Obtener la diferencia de dias del comiendo del baile con la fehca actual utilizando current-date que es la
+    formula para indicar el dia actual
 
 for $baile in //bailes/baile
 return days-from-duration(current-date()-xs:date($baile/comienzo))
