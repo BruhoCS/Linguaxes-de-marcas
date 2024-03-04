@@ -22,3 +22,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   </html>
 </xsl:template>
 </xsl:stylesheet>
+
+--------------------------------------------------------------------------------
+a) ¿qué pasa si no ponemos el data type? 
+Si no se especifica se asumirá el tipo de datos por defecto que es el tipo alfabético
+c) ¿cuál es el orden por defecto?
+El orden por defecto es ascendente
+
+c) ¿para qué sirve case-order?
+Se utiliza para especificar el orden de las letras en las operaciones de ordenamiento.
