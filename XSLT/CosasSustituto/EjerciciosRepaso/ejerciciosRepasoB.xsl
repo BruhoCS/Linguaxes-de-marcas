@@ -28,11 +28,13 @@
            <td style="color:red">Out of Stock</td>
         </xsl:otherwise>
     </xsl:choose>
+      <xsl:for-each select="reviews/review">
         <td>
           <ul>
-            <li><xsl:value-of select="reviews"/></li>
+            <li><xsl:value-of select="user"/>: <xsl:value-of select="comment"/></li>
         </ul>
           </td>
+        <xsl:for-each>
         </tr>
       </xsl:for-each>
 </table>
