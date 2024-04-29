@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+  <xsl:template match="/">
+  <html>
+       <body>
+          <h1>Temporada2020-2021</h1>
+          <xsl:for-each select="nba/equipo">
+          <xsl:variable name="web" select="web"/>
+          <xsl:variable name="logo" select="logo"/>
+            <h2>Equipo nº 
+            <xsl:value-of select="nombre"/></h2>
+            <ul>
+            <li><xsl:value-of select="ubicacion"/></li>
+            <li><xsl:value-of select="propietario"/></li>
+            <li><xsl:value-of select="entrenador"/></li>
+            <li><xsl:value-of select="estadio"/></li>
+            <li><a href="$web">web</a></li>
+            </ul>
+           <img src="$logo"/>
+          </xsl:for-each>
+          
+          <xsl:comment>Codigo de la tabla</xsl:comment>
+          
+          <xsl:for-each select="nba/plantilla">
+          
+          <h3>Plantilla nº <xsl:value-of select="@eq"/></h3>
+          
+          <table border="1">
+          <tr>
+              <th style="color:#FF4500">Jugador nº</th>
+              <th style="color:#FF4500">Nombre</th>
+              <th style="color:#FF4500">Puesto</th>
+              <th style="color:#FF4500">Altura (cm)</th>
+              <th style="color:#FF4500">Peso (kg)</th>
+          </tr>
+          <xsl:for-each select="nba/plantilla/jugador">
+          <tr>
+              <td><xsl:value-of select="@num"/></td>
+              <td><xsl:value-of select="nombre"/></td>
+              <td><xsl:value-of select="puesto"/></td>
+              <td><xsl:value-of select="altura"/></td>
+              <td><xsl:value-of select="peso"/></td>
+          </tr>
+          </xsl:for-each>
+          </table>
+          </xsl:for-each>
+       </body> 
+  </html>
+
+<xsl:comment>Bruno Couceiro Sande</xsl:comment>  
+  
+  </xsl:template>
+</xsl:stylesheet>
