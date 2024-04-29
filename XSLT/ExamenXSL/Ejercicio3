@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+  <xsl:template match="/">
+    <html>
+    <body>
+    <h1><xsl:value-of select="title"/></h1>
+    
+    <xsl:for-each select="exam/question">
+    <xsl:variable name="ResCorrect" select="correct_answer"/>
+      <ol>
+        <li><xsl:value-of select="number"/>-<xsl:value-of select="text"/></li>
+            <xsl:for-each select="options/option">
+                <ul>
+                  <xsl:choose>
+                    <xsl:when test="$ResCorrect">
+                        <li style="color:#008000"><xsl:value-of select="substring($ResCorrect,1,2)"/></li>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <li><xsl:value-of select="option"/></li>
+                    </xsl:otherwise>
+                  </xsl:choose>
+                </ul>
+            </xsl:for-each>
+      </ol>
+    </xsl:for-each>
+    
+              <xsl:comment>Bruno Couceiro Sande</xsl:comment>
+    
+    </body>
+    </html>
+  </xsl:template>
+</xsl:stylesheet>
